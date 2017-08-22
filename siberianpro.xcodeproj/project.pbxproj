@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		819561E31F4C302100496535 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819561E21F4C302100496535 /* AppDelegate.swift */; };
+		819561E51F4C302100496535 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819561E41F4C302100496535 /* ViewController.swift */; };
+		819561E81F4C302100496535 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 819561E61F4C302100496535 /* Main.storyboard */; };
+		819561EA1F4C302100496535 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 819561E91F4C302100496535 /* Assets.xcassets */; };
+		819561ED1F4C302100496535 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 819561EB1F4C302100496535 /* LaunchScreen.storyboard */; };
+		819561F81F4C302200496535 /* siberianproTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819561F71F4C302200496535 /* siberianproTests.swift */; };
+		819562031F4C302200496535 /* siberianproUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819562021F4C302200496535 /* siberianproUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		819561F41F4C302200496535 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 819561D71F4C302100496535 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 819561DE1F4C302100496535;
+			remoteInfo = siberianpro;
+		};
+		819561FF1F4C302200496535 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 819561D71F4C302100496535 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 819561DE1F4C302100496535;
+			remoteInfo = siberianpro;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		819561DF1F4C302100496535 /* siberianpro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = siberianpro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		819561E21F4C302100496535 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		819561E41F4C302100496535 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		819561E71F4C302100496535 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		819561E91F4C302100496535 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		819561EC1F4C302100496535 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		819561EE1F4C302100496535 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		819561F31F4C302200496535 /* siberianproTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = siberianproTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		819561F71F4C302200496535 /* siberianproTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = siberianproTests.swift; sourceTree = "<group>"; };
+		819561F91F4C302200496535 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		819561FE1F4C302200496535 /* siberianproUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = siberianproUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		819562021F4C302200496535 /* siberianproUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = siberianproUITests.swift; sourceTree = "<group>"; };
+		819562041F4C302200496535 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		819561DC1F4C302100496535 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		819561F01F4C302200496535 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		819561FB1F4C302200496535 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		819561D61F4C302100496535 = {
+			isa = PBXGroup;
+			children = (
+				819561E11F4C302100496535 /* siberianpro */,
+				819561F61F4C302200496535 /* siberianproTests */,
+				819562011F4C302200496535 /* siberianproUITests */,
+				819561E01F4C302100496535 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		819561E01F4C302100496535 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				819561DF1F4C302100496535 /* siberianpro.app */,
+				819561F31F4C302200496535 /* siberianproTests.xctest */,
+				819561FE1F4C302200496535 /* siberianproUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		819561E11F4C302100496535 /* siberianpro */ = {
+			isa = PBXGroup;
+			children = (
+				819561E21F4C302100496535 /* AppDelegate.swift */,
+				819561E41F4C302100496535 /* ViewController.swift */,
+				819561E61F4C302100496535 /* Main.storyboard */,
+				819561E91F4C302100496535 /* Assets.xcassets */,
+				819561EB1F4C302100496535 /* LaunchScreen.storyboard */,
+				819561EE1F4C302100496535 /* Info.plist */,
+			);
+			path = siberianpro;
+			sourceTree = "<group>";
+		};
+		819561F61F4C302200496535 /* siberianproTests */ = {
+			isa = PBXGroup;
+			children = (
+				819561F71F4C302200496535 /* siberianproTests.swift */,
+				819561F91F4C302200496535 /* Info.plist */,
+			);
+			path = siberianproTests;
+			sourceTree = "<group>";
+		};
+		819562011F4C302200496535 /* siberianproUITests */ = {
+			isa = PBXGroup;
+			children = (
+				819562021F4C302200496535 /* siberianproUITests.swift */,
+				819562041F4C302200496535 /* Info.plist */,
+			);
+			path = siberianproUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		819561DE1F4C302100496535 /* siberianpro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 819562071F4C302200496535 /* Build configuration list for PBXNativeTarget "siberianpro" */;
+			buildPhases = (
+				819561DB1F4C302100496535 /* Sources */,
+				819561DC1F4C302100496535 /* Frameworks */,
+				819561DD1F4C302100496535 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = siberianpro;
+			productName = siberianpro;
+			productReference = 819561DF1F4C302100496535 /* siberianpro.app */;
+			productType = "com.apple.product-type.application";
+		};
+		819561F21F4C302200496535 /* siberianproTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8195620A1F4C302200496535 /* Build configuration list for PBXNativeTarget "siberianproTests" */;
+			buildPhases = (
+				819561EF1F4C302200496535 /* Sources */,
+				819561F01F4C302200496535 /* Frameworks */,
+				819561F11F4C302200496535 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				819561F51F4C302200496535 /* PBXTargetDependency */,
+			);
+			name = siberianproTests;
+			productName = siberianproTests;
+			productReference = 819561F31F4C302200496535 /* siberianproTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		819561FD1F4C302200496535 /* siberianproUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8195620D1F4C302200496535 /* Build configuration list for PBXNativeTarget "siberianproUITests" */;
+			buildPhases = (
+				819561FA1F4C302200496535 /* Sources */,
+				819561FB1F4C302200496535 /* Frameworks */,
+				819561FC1F4C302200496535 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				819562001F4C302200496535 /* PBXTargetDependency */,
+			);
+			name = siberianproUITests;
+			productName = siberianproUITests;
+			productReference = 819561FE1F4C302200496535 /* siberianproUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		819561D71F4C302100496535 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = ndolgopolov;
+				TargetAttributes = {
+					819561DE1F4C302100496535 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					819561F21F4C302200496535 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 819561DE1F4C302100496535;
+					};
+					819561FD1F4C302200496535 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 819561DE1F4C302100496535;
+					};
+				};
+			};
+			buildConfigurationList = 819561DA1F4C302100496535 /* Build configuration list for PBXProject "siberianpro" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 819561D61F4C302100496535;
+			productRefGroup = 819561E01F4C302100496535 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				819561DE1F4C302100496535 /* siberianpro */,
+				819561F21F4C302200496535 /* siberianproTests */,
+				819561FD1F4C302200496535 /* siberianproUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		819561DD1F4C302100496535 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				819561ED1F4C302100496535 /* LaunchScreen.storyboard in Resources */,
+				819561EA1F4C302100496535 /* Assets.xcassets in Resources */,
+				819561E81F4C302100496535 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		819561F11F4C302200496535 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		819561FC1F4C302200496535 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		819561DB1F4C302100496535 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				819561E51F4C302100496535 /* ViewController.swift in Sources */,
+				819561E31F4C302100496535 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		819561EF1F4C302200496535 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				819561F81F4C302200496535 /* siberianproTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		819561FA1F4C302200496535 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				819562031F4C302200496535 /* siberianproUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		819561F51F4C302200496535 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 819561DE1F4C302100496535 /* siberianpro */;
+			targetProxy = 819561F41F4C302200496535 /* PBXContainerItemProxy */;
+		};
+		819562001F4C302200496535 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 819561DE1F4C302100496535 /* siberianpro */;
+			targetProxy = 819561FF1F4C302200496535 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		819561E61F4C302100496535 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				819561E71F4C302100496535 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		819561EB1F4C302100496535 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				819561EC1F4C302100496535 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		819562051F4C302200496535 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		819562061F4C302200496535 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		819562081F4C302200496535 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = siberianpro/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ru.ndolgopolov.siberianpro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		819562091F4C302200496535 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = siberianpro/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ru.ndolgopolov.siberianpro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		8195620B1F4C302200496535 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = siberianproTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ru.ndolgopolov.siberianproTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/siberianpro.app/siberianpro";
+			};
+			name = Debug;
+		};
+		8195620C1F4C302200496535 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = siberianproTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ru.ndolgopolov.siberianproTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/siberianpro.app/siberianpro";
+			};
+			name = Release;
+		};
+		8195620E1F4C302200496535 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = siberianproUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ru.ndolgopolov.siberianproUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = siberianpro;
+			};
+			name = Debug;
+		};
+		8195620F1F4C302200496535 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = siberianproUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ru.ndolgopolov.siberianproUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = siberianpro;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		819561DA1F4C302100496535 /* Build configuration list for PBXProject "siberianpro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				819562051F4C302200496535 /* Debug */,
+				819562061F4C302200496535 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		819562071F4C302200496535 /* Build configuration list for PBXNativeTarget "siberianpro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				819562081F4C302200496535 /* Debug */,
+				819562091F4C302200496535 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8195620A1F4C302200496535 /* Build configuration list for PBXNativeTarget "siberianproTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8195620B1F4C302200496535 /* Debug */,
+				8195620C1F4C302200496535 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8195620D1F4C302200496535 /* Build configuration list for PBXNativeTarget "siberianproUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8195620E1F4C302200496535 /* Debug */,
+				8195620F1F4C302200496535 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 819561D71F4C302100496535 /* Project object */;
+}
