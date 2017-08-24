@@ -7,13 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2721E5E8E0BAB6F43698499B /* Pods_siberianproUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAB9D7A4A90D0B8F29828786 /* Pods_siberianproUITests.framework */; };
+		6D30AF498B72D54200B55B7E /* Pods_siberianpro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B67522BE1435896BDEC495F /* Pods_siberianpro.framework */; };
 		819561E31F4C302100496535 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819561E21F4C302100496535 /* AppDelegate.swift */; };
-		819561E51F4C302100496535 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819561E41F4C302100496535 /* ViewController.swift */; };
+		819561E51F4C302100496535 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819561E41F4C302100496535 /* ListViewController.swift */; };
 		819561E81F4C302100496535 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 819561E61F4C302100496535 /* Main.storyboard */; };
 		819561EA1F4C302100496535 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 819561E91F4C302100496535 /* Assets.xcassets */; };
 		819561ED1F4C302100496535 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 819561EB1F4C302100496535 /* LaunchScreen.storyboard */; };
 		819561F81F4C302200496535 /* siberianproTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819561F71F4C302200496535 /* siberianproTests.swift */; };
 		819562031F4C302200496535 /* siberianproUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819562021F4C302200496535 /* siberianproUITests.swift */; };
+		819562141F4C3A6300496535 /* ItemViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819562121F4C3A6300496535 /* ItemViewCell.swift */; };
+		819562151F4C3A6300496535 /* ItemViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 819562131F4C3A6300496535 /* ItemViewCell.xib */; };
+		819562171F4D465D00496535 /* GroupViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819562161F4D465D00496535 /* GroupViewCell.swift */; };
+		819562191F4D467500496535 /* GroupViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 819562181F4D467500496535 /* GroupViewCell.xib */; };
+		8195621B1F4D4B8B00496535 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8195621A1F4D4B8B00496535 /* Models.swift */; };
+		8195621D1F4D4CA700496535 /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8195621C1F4D4CA700496535 /* ListViewModel.swift */; };
+		8195621F1F4D503D00496535 /* list.json in Resources */ = {isa = PBXBuildFile; fileRef = 8195621E1F4D503D00496535 /* list.json */; };
+		819562211F4D5BD100496535 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819562201F4D5BD100496535 /* Constants.swift */; };
+		819562231F4D60BA00496535 /* UIColor+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819562221F4D60BA00496535 /* UIColor+extension.swift */; };
+		819562251F4EB93400496535 /* UIView+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819562241F4EB93400496535 /* UIView+extension.swift */; };
+		819562271F4EBF7100496535 /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 819562261F4EBF7100496535 /* Roboto-Light.ttf */; };
+		953E061CD379E6892500D7D9 /* Pods_siberianproTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F35249FB19E51F9D8641022B /* Pods_siberianproTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +48,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0B67522BE1435896BDEC495F /* Pods_siberianpro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_siberianpro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E442F79F447A503F8473B6F /* Pods-siberianpro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-siberianpro.debug.xcconfig"; path = "Pods/Target Support Files/Pods-siberianpro/Pods-siberianpro.debug.xcconfig"; sourceTree = "<group>"; };
+		2E8AC97133DC49ACCC74B42E /* Pods-siberianproUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-siberianproUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-siberianproUITests/Pods-siberianproUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4620424AB9AA7D40355B7C65 /* Pods-siberianproTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-siberianproTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-siberianproTests/Pods-siberianproTests.release.xcconfig"; sourceTree = "<group>"; };
 		819561DF1F4C302100496535 /* siberianpro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = siberianpro.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		819561E21F4C302100496535 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		819561E41F4C302100496535 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		819561E41F4C302100496535 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 		819561E71F4C302100496535 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		819561E91F4C302100496535 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		819561EC1F4C302100496535 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +65,22 @@
 		819561FE1F4C302200496535 /* siberianproUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = siberianproUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		819562021F4C302200496535 /* siberianproUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = siberianproUITests.swift; sourceTree = "<group>"; };
 		819562041F4C302200496535 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		819562121F4C3A6300496535 /* ItemViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ItemViewCell.swift; path = View/Cells/ItemViewCell.swift; sourceTree = "<group>"; };
+		819562131F4C3A6300496535 /* ItemViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ItemViewCell.xib; path = View/Cells/ItemViewCell.xib; sourceTree = "<group>"; };
+		819562161F4D465D00496535 /* GroupViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GroupViewCell.swift; path = View/Cells/GroupViewCell.swift; sourceTree = "<group>"; };
+		819562181F4D467500496535 /* GroupViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = GroupViewCell.xib; path = View/Cells/GroupViewCell.xib; sourceTree = "<group>"; };
+		8195621A1F4D4B8B00496535 /* Models.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		8195621C1F4D4CA700496535 /* ListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
+		8195621E1F4D503D00496535 /* list.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = list.json; sourceTree = "<group>"; };
+		819562201F4D5BD100496535 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		819562221F4D60BA00496535 /* UIColor+extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+extension.swift"; sourceTree = "<group>"; };
+		819562241F4EB93400496535 /* UIView+extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+extension.swift"; sourceTree = "<group>"; };
+		819562261F4EBF7100496535 /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
+		A61420B979C647104101C930 /* Pods-siberianpro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-siberianpro.release.xcconfig"; path = "Pods/Target Support Files/Pods-siberianpro/Pods-siberianpro.release.xcconfig"; sourceTree = "<group>"; };
+		C9243EDE2DAE7BCB9002BBF2 /* Pods-siberianproTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-siberianproTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-siberianproTests/Pods-siberianproTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DAB9D7A4A90D0B8F29828786 /* Pods_siberianproUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_siberianproUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E280A5A1C4EBEB4F7024F39B /* Pods-siberianproUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-siberianproUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-siberianproUITests/Pods-siberianproUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F35249FB19E51F9D8641022B /* Pods_siberianproTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_siberianproTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D30AF498B72D54200B55B7E /* Pods_siberianpro.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				953E061CD379E6892500D7D9 /* Pods_siberianproTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +104,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2721E5E8E0BAB6F43698499B /* Pods_siberianproUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3E04F8C3F6A45055691BD1FE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1E442F79F447A503F8473B6F /* Pods-siberianpro.debug.xcconfig */,
+				A61420B979C647104101C930 /* Pods-siberianpro.release.xcconfig */,
+				C9243EDE2DAE7BCB9002BBF2 /* Pods-siberianproTests.debug.xcconfig */,
+				4620424AB9AA7D40355B7C65 /* Pods-siberianproTests.release.xcconfig */,
+				2E8AC97133DC49ACCC74B42E /* Pods-siberianproUITests.debug.xcconfig */,
+				E280A5A1C4EBEB4F7024F39B /* Pods-siberianproUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		819561D61F4C302100496535 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +131,8 @@
 				819561F61F4C302200496535 /* siberianproTests */,
 				819562011F4C302200496535 /* siberianproUITests */,
 				819561E01F4C302100496535 /* Products */,
+				3E04F8C3F6A45055691BD1FE /* Pods */,
+				B67B6E7FD387E3C7A57203C4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +149,20 @@
 		819561E11F4C302100496535 /* siberianpro */ = {
 			isa = PBXGroup;
 			children = (
+				819562261F4EBF7100496535 /* Roboto-Light.ttf */,
+				8195621E1F4D503D00496535 /* list.json */,
+				819562101F4C399400496535 /* View */,
 				819561E21F4C302100496535 /* AppDelegate.swift */,
-				819561E41F4C302100496535 /* ViewController.swift */,
+				819561E41F4C302100496535 /* ListViewController.swift */,
 				819561E61F4C302100496535 /* Main.storyboard */,
 				819561E91F4C302100496535 /* Assets.xcassets */,
 				819561EB1F4C302100496535 /* LaunchScreen.storyboard */,
 				819561EE1F4C302100496535 /* Info.plist */,
+				8195621A1F4D4B8B00496535 /* Models.swift */,
+				8195621C1F4D4CA700496535 /* ListViewModel.swift */,
+				819562201F4D5BD100496535 /* Constants.swift */,
+				819562221F4D60BA00496535 /* UIColor+extension.swift */,
+				819562241F4EB93400496535 /* UIView+extension.swift */,
 			);
 			path = siberianpro;
 			sourceTree = "<group>";
@@ -125,6 +185,35 @@
 			path = siberianproUITests;
 			sourceTree = "<group>";
 		};
+		819562101F4C399400496535 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				819562111F4C399C00496535 /* Cells */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		819562111F4C399C00496535 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				819562121F4C3A6300496535 /* ItemViewCell.swift */,
+				819562131F4C3A6300496535 /* ItemViewCell.xib */,
+				819562161F4D465D00496535 /* GroupViewCell.swift */,
+				819562181F4D467500496535 /* GroupViewCell.xib */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		B67B6E7FD387E3C7A57203C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0B67522BE1435896BDEC495F /* Pods_siberianpro.framework */,
+				F35249FB19E51F9D8641022B /* Pods_siberianproTests.framework */,
+				DAB9D7A4A90D0B8F29828786 /* Pods_siberianproUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +221,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 819562071F4C302200496535 /* Build configuration list for PBXNativeTarget "siberianpro" */;
 			buildPhases = (
+				2B9F1C2E83893EFDA3DA7B5B /* [CP] Check Pods Manifest.lock */,
 				819561DB1F4C302100496535 /* Sources */,
 				819561DC1F4C302100496535 /* Frameworks */,
 				819561DD1F4C302100496535 /* Resources */,
+				1C01C5A58B4CE55642701343 /* [CP] Embed Pods Frameworks */,
+				B84DD4B82100F4688BEC35F1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +241,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8195620A1F4C302200496535 /* Build configuration list for PBXNativeTarget "siberianproTests" */;
 			buildPhases = (
+				523EB7EAC5B4DCA08AD41FDC /* [CP] Check Pods Manifest.lock */,
 				819561EF1F4C302200496535 /* Sources */,
 				819561F01F4C302200496535 /* Frameworks */,
 				819561F11F4C302200496535 /* Resources */,
+				3DF8DD29B13B70E3D0E0F009 /* [CP] Embed Pods Frameworks */,
+				86192CDCF6900805142A25C4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +262,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8195620D1F4C302200496535 /* Build configuration list for PBXNativeTarget "siberianproUITests" */;
 			buildPhases = (
+				63C30B58C4580BC2E36E8879 /* [CP] Check Pods Manifest.lock */,
 				819561FA1F4C302200496535 /* Sources */,
 				819561FB1F4C302200496535 /* Frameworks */,
 				819561FC1F4C302200496535 /* Resources */,
+				322649D63EA59B273A6580DA /* [CP] Embed Pods Frameworks */,
+				515084BDE9DB1F1832657B17 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -232,9 +330,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				819562191F4D467500496535 /* GroupViewCell.xib in Resources */,
 				819561ED1F4C302100496535 /* LaunchScreen.storyboard in Resources */,
 				819561EA1F4C302100496535 /* Assets.xcassets in Resources */,
 				819561E81F4C302100496535 /* Main.storyboard in Resources */,
+				819562271F4EBF7100496535 /* Roboto-Light.ttf in Resources */,
+				819562151F4C3A6300496535 /* ItemViewCell.xib in Resources */,
+				8195621F1F4D503D00496535 /* list.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,13 +356,158 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1C01C5A58B4CE55642701343 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-siberianpro/Pods-siberianpro-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2B9F1C2E83893EFDA3DA7B5B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		322649D63EA59B273A6580DA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-siberianproUITests/Pods-siberianproUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3DF8DD29B13B70E3D0E0F009 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-siberianproTests/Pods-siberianproTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		515084BDE9DB1F1832657B17 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-siberianproUITests/Pods-siberianproUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		523EB7EAC5B4DCA08AD41FDC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		63C30B58C4580BC2E36E8879 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		86192CDCF6900805142A25C4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-siberianproTests/Pods-siberianproTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B84DD4B82100F4688BEC35F1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-siberianpro/Pods-siberianpro-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		819561DB1F4C302100496535 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				819561E51F4C302100496535 /* ViewController.swift in Sources */,
+				819562141F4C3A6300496535 /* ItemViewCell.swift in Sources */,
+				819561E51F4C302100496535 /* ListViewController.swift in Sources */,
+				8195621D1F4D4CA700496535 /* ListViewModel.swift in Sources */,
+				819562251F4EB93400496535 /* UIView+extension.swift in Sources */,
+				819562171F4D465D00496535 /* GroupViewCell.swift in Sources */,
+				819562211F4D5BD100496535 /* Constants.swift in Sources */,
 				819561E31F4C302100496535 /* AppDelegate.swift in Sources */,
+				8195621B1F4D4B8B00496535 /* Models.swift in Sources */,
+				819562231F4D60BA00496535 /* UIColor+extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +659,7 @@
 		};
 		819562081F4C302200496535 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E442F79F447A503F8473B6F /* Pods-siberianpro.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = siberianpro/Info.plist;
@@ -424,6 +672,7 @@
 		};
 		819562091F4C302200496535 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A61420B979C647104101C930 /* Pods-siberianpro.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = siberianpro/Info.plist;
@@ -436,6 +685,7 @@
 		};
 		8195620B1F4C302200496535 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9243EDE2DAE7BCB9002BBF2 /* Pods-siberianproTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -450,6 +700,7 @@
 		};
 		8195620C1F4C302200496535 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4620424AB9AA7D40355B7C65 /* Pods-siberianproTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -464,6 +715,7 @@
 		};
 		8195620E1F4C302200496535 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E8AC97133DC49ACCC74B42E /* Pods-siberianproUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = siberianproUITests/Info.plist;
@@ -477,6 +729,7 @@
 		};
 		8195620F1F4C302200496535 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E280A5A1C4EBEB4F7024F39B /* Pods-siberianproUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = siberianproUITests/Info.plist;
@@ -507,6 +760,7 @@
 				819562091F4C302200496535 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8195620A1F4C302200496535 /* Build configuration list for PBXNativeTarget "siberianproTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +769,7 @@
 				8195620C1F4C302200496535 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8195620D1F4C302200496535 /* Build configuration list for PBXNativeTarget "siberianproUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +778,7 @@
 				8195620F1F4C302200496535 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
